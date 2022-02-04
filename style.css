@@ -217,14 +217,12 @@ footer {
 @media screen and (max-width: 730px) {
     header {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
         flex-direction: column;
     }
     
     header img {
         margin: 0%;
-        width: 10%;
+        width: 20%;
         display: flex;
     }
     
@@ -246,14 +244,12 @@ footer {
 @media screen and (max-width: 575px) {
     header {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
         flex-direction: column;
     }
     
     header img {
         margin: 0%;
-        width: 10%;
+        width: 20%;
         display: flex;
     }
     
@@ -269,5 +265,50 @@ footer {
         margin: 0% auto;
         text-align: center;
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 407px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header img {
+        margin: 0%;
+        width: 20%;
+        display: flex;
+    }
+    
+    nav {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .texte-acceuil {
+        width: 90%;
+        margin: 0% auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 814px) {
+    .resp-iframe {
+        animation: fondu 0.5s;
+        width: 50%;
+        margin: auto;
+        height: 0;
+        position: relative;
+        padding-bottom: 20%;
+    }
+    
+    .resp-iframe iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }
