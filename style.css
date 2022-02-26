@@ -120,7 +120,7 @@ nav a:hover {
 }
 
 .liste-projets {
-    width: 30%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
 }
@@ -173,7 +173,7 @@ nav a:hover {
 .contact {
     width: 70%;
     background: none;
-    margin: auto;
+    margin: auto
     font-size: 18px;
 }
 
