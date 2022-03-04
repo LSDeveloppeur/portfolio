@@ -2,6 +2,7 @@ html {
     background: linear-gradient(342deg, rgba(2,0,36,1) 8%, rgba(237,237,246,1) 100%);
     background-attachment: fixed;
     height: 100%;
+    animation: fondu 0.5s;
 }
 
 h1 {
