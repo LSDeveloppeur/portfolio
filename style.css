@@ -11,7 +11,6 @@ h1 {
 
 h2 {
     margin: 1%;
-    text-decoration: underline wavy;
     text-transform: uppercase;
     text-align: center;
 }
@@ -184,8 +183,8 @@ nav a:hover {
 
 footer {
     color: whitesmoke;
-    /* position: absolute;
-    bottom: 0; */
+    position: absolute;
+    bottom: 0;
     width: 90%;
     text-align: center;
     margin: auto;
@@ -266,8 +265,6 @@ footer {
         text-align: center;
         font-size: 16px;
     }
-
-    
 }
 
 @media screen and (max-width: 575px) {
@@ -299,6 +296,10 @@ footer {
         margin: 0% auto;
         text-align: center;
         font-size: 16px;
+    }
+
+    footer {
+        font-size: 12px;
     }
 }
 
